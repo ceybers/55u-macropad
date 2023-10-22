@@ -1,0 +1,44 @@
+{
+    "keyboard_name": "55u Macropad Via",
+    "manufacturer": "cae86",
+    "url": "http://127.0.0.1",
+    "maintainer": "cae86",
+    "usb": {
+        "vid": "0xCE86",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "bootmagic": {
+        "matrix": [0,0]
+    },
+    "features": {
+       "bootmagic": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP16",  "GP3",  "GP4",  "GP5"],
+            ["GP10",  "GP7",  "GP8",  "GP9"],
+            [ "GP6", "GP11", "GP12", "GP13"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"x": 0, "y": 0, "matrix": [0, 0]},
+                {"x": 1, "y": 0, "matrix": [0, 1]},
+                {"x": 2, "y": 0, "matrix": [0, 2]},
+                {"x": 3, "y": 0, "matrix": [0, 3]},
+                {"x": 0, "y": 1, "matrix": [1, 0]},
+                {"x": 1, "y": 1, "matrix": [1, 1]},
+                {"x": 2, "y": 1, "matrix": [1, 2]},
+                {"x": 3, "y": 1, "matrix": [1, 3]},
+                {"x": 0, "y": 2, "matrix": [2, 0]},
+                {"x": 1, "y": 2, "matrix": [2, 1]},
+                {"x": 2, "y": 2, "matrix": [2, 2]},
+                {"x": 3, "y": 2, "matrix": [2, 3]}
+            ]
+        }
+    }
+}
